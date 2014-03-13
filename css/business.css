@@ -1,0 +1,67 @@
+body {
+	margin-top: 0px; /* 50px is the height of the navbar - change this if the navbarn height changes */
+}
+
+/* change the URL to a picture of your choice - the higher quality the better! */
+.business-header {
+	height: 290px;
+	background: url(../imagens/logo-250.jpg) center center no-repeat;
+	background-size: cover;
+	box-shadow : 1px 2px 1px #080808;
+}
+
+.sombra{
+	box-shadow : 10px 10px 5px #ff2244;
+}
+
+/* adjust the color and text shadow to optimize legibility once you have an image set - you can also change the vertical positioning if desired  */
+.tagline {
+	color: #fff;
+	text-shadow: 0 0 10px #000;
+}
+
+footer {
+	margin: 50px 0;
+}
+
+
+.menu{
+	margin-top : 20px;
+	}
+	
+
+
+.featurette-divider {
+	margin: 80px 0;
+}
+.featurette {
+	overflow: hidden; 
+}
+
+.featurette-image.pull-left {
+	margin-right: 40px;
+}
+.featurette-image.pull-right {
+	margin-left: 40px;
+}
+
+.featurette-heading {
+	font-size: 50px;
+}
+
+footer {
+	margin: 50px 0;
+}
+
+/* RESPONSIVE CSS */
+
+@media (max-width: 1200px) {
+
+.headline > .container > h1 {font-size: 140px;}
+.headline > .container > h2 {font-size: 63px;}
+.featurette-divider {margin: 50px 0;}
+.featurette-image.pull-left {margin-right: 20px;}
+.featurette-image.pull-right {margin-left: 20px;}
+.featurette-heading {font-size: 35px;}
+
+}
